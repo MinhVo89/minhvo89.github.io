@@ -1,15 +1,6 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# HUGO BLOX CONFIGURATION
-# Schema: hugoblox.com/schema/v2
-# Documentation: https://docs.hugoblox.com/
-# ══════════════════════════════════════════════════════════════════════════════
-
 hugoblox:
   schema: "2.0"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # IDENTITY
-  # ────────────────────────────────────────────────────────────────────────────
   identity:
     name: "Van Nhat Minh Vo"
     organization: "King’s College London (IoPPN), Department of Neuroimaging"
@@ -17,48 +8,21 @@ hugoblox:
     tagline: "Imaging Scientist · MRI · Neuroimaging · Cardiovascular Imaging"
     description: "Personal academic website of Van Nhat Minh Vo — Imaging Scientist focused on MRI, neuroimaging, and cardiovascular imaging."
     social:
-      twitter: ""   # để trống nếu không dùng
+      twitter: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # THEME (tối giản, sạch)
-  # ────────────────────────────────────────────────────────────────────────────
   theme:
     mode: light
     pack: "default"
-    colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
-    colors_light: {}
-    colors_dark: {}
-    surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # TYPOGRAPHY
-  # ────────────────────────────────────────────────────────────────────────────
   typography:
     font: "sans"
     size: "md"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LAYOUT
-  # ────────────────────────────────────────────────────────────────────────────
   layout:
     radius: "sm"
     spacing: "comfortable"
     avatar_shape: rounded
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # HEADER (gọn, giống style tối giản)
-  # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
     style: minimal
@@ -73,48 +37,16 @@ hugoblox:
       text: ""
       url: ""
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # FOOTER (chỉ copyright, không “Made with HugoBlox”)
-  # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
     language_switcher: false
     text: "© 2021–{year} Van Nhat Minh Vo. All Rights Reserved."
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT (đơn giản hoá)
-  # ────────────────────────────────────────────────────────────────────────────
   copyright:
     notice: "© 2021–{year} Van Nhat Minh Vo. All Rights Reserved."
     license:
       type: custom
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEO
-  # ────────────────────────────────────────────────────────────────────────────
-  seo:
-    title: "Van Nhat Minh Vo"
-    location:
-      address:
-        street: ""
-        city: ""
-        region: ""
-        postal_code: ""
-        country: ""
-      coordinates:
-        latitude: null
-        longitude: null
-      phone: ""
-    ai:
-      allow:
-        - /
-      disallow: []
-      note: ""
-      contact: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # CONTENT
-  # ────────────────────────────────────────────────────────────────────────────
   content:
     math:
       enable: false
@@ -122,101 +54,6 @@ hugoblox:
       enable: false
     reading_time:
       enable: false
-    citations:
-      style: apa
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEARCH
-  # ────────────────────────────────────────────────────────────────────────────
   search:
     enable: false
-    suggestions: []
-    quick_actions: []
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # COMMENTS
-  # ────────────────────────────────────────────────────────────────────────────
-  comments:
-    enable: false
-    provider: ""
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
-    disqus:
-      shortname: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # ANALYTICS (tắt hết mặc định)
-  # ────────────────────────────────────────────────────────────────────────────
-  analytics:
-    google:
-      measurement_id: ""
-    google_tag_manager:
-      container_id: ""
-    plausible:
-      domain: ""
-    fathom:
-      site_id: ""
-    pirsch:
-      site_id: ""
-    clarity:
-      project_id: ""
-    baidu:
-      site_id: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # VERIFICATION
-  # ────────────────────────────────────────────────────────────────────────────
-  verification:
-    google: ""
-    bing: ""
-    baidu: ""
-    yandex: ""
-    pinterest: ""
-    naver: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # REPOSITORY
-  # ────────────────────────────────────────────────────────────────────────────
-  repository:
-    enable: false
-    url: ""
-    branch: main
-    content_dir: content
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # LOCALE
-  # ────────────────────────────────────────────────────────────────────────────
-  locale:
-    date_format: "Jan 2, 2006"
-    time_format: "3:04 PM"
-    address_format: en-us
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # SECURITY
-  # ────────────────────────────────────────────────────────────────────────────
-  security:
-    csp:
-      policy: ""
-      report_only: false
-    frame_options: allow
-    permissions_policy: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # PRIVACY
-  # ────────────────────────────────────────────────────────────────────────────
-  privacy:
-    enable: false
-    anonymize_analytics: true
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # DEBUG
-  # ────────────────────────────────────────────────────────────────────────────
-  debug:
-    enable: false
-    hud:
-      position: bottom-left
-      opacity: 1.0
-    export_logs: false
