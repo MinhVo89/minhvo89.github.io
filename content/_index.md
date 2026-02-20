@@ -4,7 +4,7 @@ date: 2026-01-01
 type: landing
 
 sections:
-  # HERO (gọn kiểu 1 trang)
+  # HERO / ABOUT
   - block: resume-biography-3
     id: about
     content:
@@ -31,7 +31,7 @@ sections:
         size: xxl
         shape: rounded
 
-  # CONTACT (icon to như trang bạn gửi)
+  # CONTACT
   - block: markdown
     id: contact
     content:
