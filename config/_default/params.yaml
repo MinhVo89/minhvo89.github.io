@@ -25,7 +25,7 @@ hugoblox:
 
   header:
     enable: true
-    style: minimal
+    style: navbar
     sticky: true
     align: left
     search: false
