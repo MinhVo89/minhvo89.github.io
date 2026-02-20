@@ -1,40 +1,33 @@
 # data/authors/me.yaml
 
-name:
-  display: "Van Nhat Minh Vo"
-  first: "Van Nhat Minh"
-  last: "Vo"
-
-role: "Imaging Scientist | MRI • Neuroimaging • Cardiovascular Imaging"
+name: "Van Nhat Minh Vo"
+role: "Imaging Scientist | MRI · Neuroimaging · Cardiovascular Imaging"
 
 organizations:
   - name: "King’s College London (IoPPN), Department of Neuroimaging"
 
 email: "minhvo89@gmail.com"
 
-# Avatar file:
-# assets/media/authors/me/avatar.jpg
-avatar:
-  filename: "avatar.jpg"
+# Avatar file must be at: assets/media/authors/me/avatar.jpg
+avatar: "avatar.jpg"
 
-bio: >-
-  Imaging Scientist specializing in MRI acquisition, optimization, and quantitative analysis.
+bio: "Imaging Scientist focused on MRI pipelines, neuroimaging, and cardiovascular imaging."
 
 interests:
-  - Magnetic Resonance Imaging (MRI)
-  - Neuroimaging & Preclinical Imaging
+  - MRI (Magnetic Resonance Imaging)
+  - Neuroimaging
   - Cardiovascular Imaging
   - Quantitative Imaging Biomarkers
-  - Imaging Pipelines (QC • preprocessing • analysis)
+  - Reproducible Imaging Pipelines
 
 social:
   - icon: orcid
-    icon_pack: ai
+    icon_pack: custom
     link: "https://orcid.org/0000-0003-3306-5006"
     label: "ORCID"
 
   - icon: google-scholar
-    icon_pack: ai
+    icon_pack: custom
     link: "https://scholar.google.com/citations?user=ImwA5u0AAAAJ&hl=vi"
     label: "Google Scholar"
 
@@ -43,12 +36,12 @@ social:
     link: "https://github.com/MinhVo89"
     label: "GitHub"
 
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:minhvo89@gmail.com"
-    label: "Email"
-
   - icon: linkedin
     icon_pack: fab
     link: "https://www.linkedin.com/in/minh-vo-778323120/?originalSubdomain=uk"
     label: "LinkedIn"
+
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:minhvo89@gmail.com"
+    label: "Email"
