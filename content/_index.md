@@ -7,7 +7,7 @@ sections:
   # HERO
   - block: hero
     content:
-      title: Van Nhat Minh Vo, PhD
+      title: Van Nhat Minh Vo
       text: |
         *Imaging Scientist*
 
@@ -26,9 +26,9 @@ sections:
       background:
         color: white
       spacing:
-        padding: ["96px","0","72px","0"]
+        padding: ["96px","0","56px","0"]
 
-  # INTERESTS (gọn, kiểu tag)
+  # INTERESTS
   - block: features
     content:
       title: Interests
@@ -37,10 +37,11 @@ sections:
         - name: Neuroimaging & Preclinical Imaging
         - name: Cardiovascular Imaging
         - name: Quantitative Imaging Biomarkers
+        - name: Reproducible Imaging Pipelines
     design:
       columns: "2"
       spacing:
-        padding: ["24px","0","8px","0"]
+        padding: ["24px","0","16px","0"]
 
   # SELECTED MANUSCRIPTS
   - block: collection
@@ -52,26 +53,22 @@ sections:
           - publication
       count: 10
     design:
-      view: compact
+      view: list
       columns: "1"
       spacing:
-        padding: ["24px","0","24px","0"]
+        padding: ["16px","0","32px","0"]
 
-  # CONTACT (cta buttons)
-  - block: cta
+  # CONTACT (dùng markdown block cho chắc chắn)
+  - block: markdown
     content:
       title: Contact
-      text: "For details, please use the links below."
-      buttons:
-        - text: Email
-          url: mailto:minhvo89@gmail.com
-        - text: GitHub
-          url: https://github.com/MinhVo89
-        - text: LinkedIn
-          url: https://www.linkedin.com/in/minh-vo-778323120/?originalSubdomain=uk
-        - text: Google Scholar
-          url: https://scholar.google.com/citations?user=ImwA5u0AAAAJ&hl=vi
+      text: |
+        - Email: [minhvo89@gmail.com](mailto:minhvo89@gmail.com)
+        - ORCID: <https://orcid.org/0000-0003-3306-5006>
+        - Google Scholar: <https://scholar.google.com/citations?user=ImwA5u0AAAAJ&hl=vi>
+        - GitHub: <https://github.com/MinhVo89>
+        - LinkedIn: <https://www.linkedin.com/in/minh-vo-778323120/?originalSubdomain=uk>
     design:
       spacing:
-        padding: ["24px","0","72px","0"]
+        padding: ["0","0","72px","0"]
 ---
