@@ -9,7 +9,7 @@ authors:
   - "Koshiro Terawaki"
   - "Takako Shirakawa"
   - "Hirotaka James Okano"
-publication: "Diagnostics (preprint)"
+publication: "Diagnostics"
 doi: "10.21203/rs.3.rs-143667/v1"
 links:
   - name: "DOI"
