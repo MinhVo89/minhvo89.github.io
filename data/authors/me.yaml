@@ -1,6 +1,10 @@
 # data/authors/me.yaml
 
-name: "Van Nhat Minh Vo"
+name:
+  display: "Van Nhat Minh Vo"
+  first: "Van Nhat Minh"
+  last: "Vo"
+
 role: "Imaging Scientist | MRI • Neuroimaging • Cardiovascular Imaging"
 
 organizations:
